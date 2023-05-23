@@ -1,3 +1,4 @@
+import { trpc } from '@/utils/trpc'
 import './globals.css'
 import clsx from 'clsx'
 import { Press_Start_2P } from 'next/font/google'
@@ -13,7 +14,7 @@ interface Props {
   children: React.ReactNode
 }
 
-export default function RootLayout ({
+function RootLayout ({
   children
 }: Props): JSX.Element {
   return (
@@ -24,3 +25,4 @@ export default function RootLayout ({
     </html>
   )
 }
+export default trpc.withTRPC(RootLayout)

@@ -8,7 +8,7 @@ export default function TownInnPage (): JSX.Element {
         ¡Town in Greedy Band!
       </h1>
       <p className="text-center">
-      Después de un largo día de aventuras y batallas, este es el lugar perfecto para descansar y recargar energías.
+        Después de un largo día de aventuras y batallas, este es el lugar perfecto para descansar y recargar energías.
       </p>
       <Button
         as={Link}

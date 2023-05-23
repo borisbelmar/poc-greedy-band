@@ -11,6 +11,7 @@ const characters = [
 export default function Home (): JSX.Element {
   const result = trpc.quest.useQuery()
   console.log(result.data)
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4">
       <h1 className="text-2xl">

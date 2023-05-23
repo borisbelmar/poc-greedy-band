@@ -1,5 +1,5 @@
-import clsx from 'clsx'
 import './globals.css'
+import clsx from 'clsx'
 import { Press_Start_2P } from 'next/font/google'
 
 const font = Press_Start_2P({ weight: '400', subsets: ['latin-ext'] })
